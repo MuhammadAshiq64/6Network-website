@@ -1,0 +1,432 @@
+.thumbg{
+    color: white;
+    font-size: 2em;
+    border: solid white 1px;
+    padding: 4px;
+    padding-bottom: 4px;
+    margin-left: 14px;
+    border-radius: 28px;
+}
+
+
+body {
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+.flexbox {
+    display: flex;
+}
+
+.navlink {
+    text-decoration: none;
+    margin-left: 100px;
+    font-size: 24px;
+}
+
+.navlink:hover {
+    color: white;
+    background-color: black;
+}
+
+.navbar {
+    background-color: aliceblue;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.logo {
+    font-size: 200px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.line {
+    margin-top: 280px;
+}
+
+.join {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 42px;
+    margin-top: 120px;
+}
+
+.intropara {
+    font: 1em sans-serif;
+    width: 600px;
+}
+
+.members {
+    width: 30%;
+    border: solid white 1px;
+    text-align: center;
+    border-radius: 22px;
+    margin-left: 30px;
+    height: 450px;
+}
+
+.memberspic {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+figcaption {
+    font: 1.5em sans-serif;
+}
+
+.memberpara {
+    font: 1em sans-serif;
+    width: 80%;
+    margin: 0px auto;
+}
+
+.memberbutton {
+    background-color: rgba(31, 28, 28, 0.9);
+    color: white;
+    font-size: 22px;
+    border-radius: 8px;
+    border: solid white 2px;
+    margin: 10px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    width: 50%;
+    padding: auto;
+}
+
+.para {
+    font: 1em sans-serif;
+}
+
+.parah1 {
+    font: sans-serif;
+    font: 3em sans-serif;
+    text-align: left;
+}
+
+.provided {
+    width: 30%;
+    border: solid white;
+    padding: 10px;
+    margin: 0px auto;
+}
+
+.servises {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.size {
+    font: 1.4em sans-serif;
+}
+
+.intro {
+    width: 35%;
+    border: solid white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.login {
+    width: 40%;
+    border: solid white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.text {
+    height: 25px;
+    width: 280px;
+    background-color: black;
+    outline: none;
+    border: solid black;
+    border-bottom: solid white 1px;
+}
+
+.text:focus {
+    background-color: black;
+    outline: none;
+    border: solid black;
+    border-bottom: solid white 1px;
+    color: white;
+}
+
+.singupbutton {
+    width: 80%;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(54, 52, 52);
+    margin-top: 30px;
+}
+
+.singupbutton:hover {
+    background-color: white;
+    color: black;
+    border-radius: 12px;
+}
+
+.padddiv {
+    display: flex;
+    margin: 0px auto;
+    margin-left: 10%;
+}
+
+.networkvertival {
+    width: 30%;
+    border: solid none;
+    text-align: center;
+    font-size: 70px;
+    margin: 5px;
+}
+
+.usereedback {
+    width: 70%;
+    border: solid none;
+    border-left: solid white;
+    margin: 5px;
+}
+
+.feedbackimg {
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+}
+
+.feedbackpara {
+    margin-left: 40px;
+    border: solid white 1px;
+    width: 100px;
+    text-align: center;
+    border-radius: 16px;
+    padding: 4px;
+}
+
+.feedbackspan {
+    font-size: 17px;
+}
+
+.feedbackcommant {
+    margin-left: 40px;
+    width: 70%;
+    font: 1em sans-serif;
+    border-radius: 16px;
+    border: solid white 1px;
+    padding: 8px;
+}
+
+.be {
+    font-size: 2em;
+    border: solid white 1px;
+    padding: 4px;
+    padding-bottom: 4px;
+    margin-left: 14px;
+    border-radius: 28px;
+}
+
+.readmore {
+    background-color: rgb(68, 66, 66);
+    color: white;
+    font-size: 28px;
+    float: right;
+}
+
+.contactusicon {
+    padding: 4px;
+    padding-bottom: 4px;
+    margin-left: 14px;
+    font-size: 1.5em;
+    border-radius: 28px;
+}
+
+.center {
+    text-align: center;
+    margin: 0% auto;
+}
+
+.footer {
+    width: 40%;
+}
+
+.flexboxdin {
+    display: flex;
+}
+
+@media screen and (max-width: 880px) {
+    .flexboxdin {
+        display: none;
+    }
+    .logo {
+        font-size: 150px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 800px){
+.hide{
+    display: none;
+}
+
+
+
+.newhide{
+    display: none;
+}
+
+
+.parah1{
+    font-size: 2.6em;
+}
+.size{
+    font-size: 1.2em;
+}
+.mobilevie{
+    font-size: 2em;
+}
+
+.footer{
+    width: 440px;
+}
+
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 750px) {
+
+    
+    .logo {
+        font-size: 100px;
+    }
+    .flexbox {
+        display: block;
+    }
+    .members {
+        width: 90%;
+    }
+    .sticky{
+        display: none;
+    }
+    .provided {
+        width: 90%;
+        margin-top: 50px;
+    }
+    .intro {
+        display: none;
+    }
+    .login {
+        width: 90%;
+    }
+    .intropara {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .text {
+        width: 90%;
+    }
+    
+}
+
+@media screen and (max-width: 830px) {
+    .text {
+        width: 90%;
+    }
+
+}
+
+
+@media screen and (max-width: 750px) {
+    .logo {
+        font-size: 80px;
+    }
+    .members {
+        margin: 10px;
+    }
+    .singupbutton {
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .text {
+        width: 80%;
+    }
+    .singupbutton {
+        font-size: 20px;
+    }
+    .mobilevie {
+        font-size: 35px;
+    }
+    .text {
+        outline: none;
+        background-color: black;
+        border: solid black;
+        border-bottom: solid white 1px;
+    }
+    .displaynon {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .logo {
+        font-size: 50px;
+    }
+}
+.contactjs{
+    position: absolute;
+    width: 29.8%;
+    background-color: black;
+    border-radius: 20px 20px 0px 0px;
+    height: 74%;
+    border: solid transparent transparent transparent white 1px;
+    display: none;
+}
+.contactjson{
+    position: absolute;
+    width: 29.8%;
+    background-color: black;
+    border-radius: 20px 20px 0px 0px;
+    height: 350px;
+    border: solid transparent transparent transparent white 1px;
+
+}
+
+
+
+.imgavctojs{
+    width: 100%;
+    height: 150px;
+    border-radius: 20px 20px 0px 0px;
+    border: solid white 3px;
+}
+.contactbtnjs{
+    background-color: rgba(54, 44, 44, 0.6);
+    color: white;
+    border: solid transparent;
+    border-radius: 12px;
+    margin-top: 10px;
+    width: 90%;
+    text-align: center;
+    display: flex;
+}
+.stablcontctname{
+    position: relative;
+    left: 20px;
+   }
+
+.stablcontctnametwo{
+    position: relative;
+    left: 30px;
+    width: 150px;
+}
